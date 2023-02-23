@@ -1,0 +1,84 @@
+/* LIMPANDO PADRÃO NAVEGADORES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILO LAYOUT*/
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #b6b2b2;
+}
+
+#cabecalho {
+    background: #ffb600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu {
+    padding: 10px;
+}
+
+#principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagen, #area-lateral {
+    background: cyan;
+}
+
+#area-postagen {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+
+.postegen {
+    padding: 20px;
+    margin-bottom: 12px;
+    background: #FFF;
+}
+
+#rodape {
+    clear: both;
+    background: #CCC;
+    padding: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+/*ESTILO GERAL*/
+
+h1 {
+    font-size: 2.5em;
+    color: #403e3e	;
+}
+
+.branco {
+    color: white;
+}
+
+/*ESTILO MENU*/
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #ffb600;
+    background: white;
+}
