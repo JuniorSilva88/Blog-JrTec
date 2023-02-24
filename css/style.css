@@ -1,3 +1,10 @@
+/*PALETA DE CORES 
+.color1 { #44749d };
+.color2 { #c6d4e1 };
+.color3 { #ffffff };
+.color4 { #ebe7e0 };
+.color5 { #bdb8ad };*/
+
 /* LIMPANDO PADRÃO NAVEGADORES */
 
 * {
@@ -5,16 +12,16 @@
     padding: 0;
 }
 
-/* ESTILO LAYOUT*/
+/* LAYOUT*/
 
 body {
     font-size: 1em;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #b6b2b2;
+    background: #c6d4e1;
 }
 
 #cabecalho {
-    background: #ffb600;
+    background: #44749d;
     padding: 15px;
     text-align: center;
 }
@@ -28,10 +35,6 @@ body {
     margin: 0 auto;
 }
 
-#area-postagen, #area-lateral {
-    background: cyan;
-}
-
 #area-postagen {
     width: 660px;
     float: left;
@@ -43,42 +46,85 @@ body {
 }
 
 
-.postegen {
+.postagen {
     padding: 20px;
     margin-bottom: 12px;
-    background: #FFF;
+    background: #ffffff;
+}
+
+.conteudo-lateral {
+    font-size: 0.8em;
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ebe7e0 ;
 }
 
 #rodape {
     clear: both;
-    background: #CCC;
+    background: #bdb8ad;
     padding: 15px;
     font-style: italic;
     text-align: center;
 }
 
-/*ESTILO GERAL*/
+/* GERAL*/
 
 h1 {
     font-size: 2.5em;
     color: #403e3e	;
 }
 
-.branco {
-    color: white;
+h2 {
+    color: #44749d;
 }
 
-/*ESTILO MENU*/
+h3 {
+    color: #403e3e;
+    background: #ebe7e0 ;
+    padding: 5px;
+}
+
+.branco {
+    color: #ffffff;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*MENU - LINK'S*/
+
 a {
     text-decoration: none;
 }
 
 a:link, a:visited {
-    color: #FFF;
+    color: #44749d;
     padding: 8px 12px;
 }
 
 a:hover {
-    color: #ffb600;
-    background: white;
+    text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover {
+    color: #44749d;
+    background: #ffffff;
+    text-decoration: none;
 }
